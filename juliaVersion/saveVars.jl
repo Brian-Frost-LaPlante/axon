@@ -1,0 +1,26 @@
+using FileIO, JLD2
+
+jldsave("oneLayerData.jld2"; λs,
+            ISI_EE_i, ISI_EE_dam_i, ISI_EE_c, ISI_EE_dam_c,
+            ISI_IE_i, ISI_IE_dam_i, ISI_IE_c, ISI_IE_dam_c,
+            ISI_EE_FB_i, ISI_EE_FB_dam_i, ISI_EE_FB_c, ISI_EE_FB_dam_c,
+            ISI_IE_FB_i, ISI_IE_FB_dam_i, ISI_IE_FB_c, ISI_IE_FB_dam_c,
+            ISI_EI_FB_i, ISI_EI_FB_dam_i, ISI_EI_FB_c, ISI_EI_FB_dam_c,
+            ISI_II_FB_i, ISI_II_FB_dam_i, ISI_II_FB_c, ISI_II_FB_dam_c,
+            ISI_EEE_i, ISI_EEE_dam_i, ISI_EEE_c, ISI_EEE_dam_c,
+            ISI_EEE_FB_i, ISI_EEE_FB_dam_i, ISI_EEE_FB_c, ISI_EEE_FB_dam_c,
+            ISI_EEI_i, ISI_EEI_dam_i, ISI_EEI_c, ISI_EEI_dam_c,
+            ISI_EEI_FB_i, ISI_EEI_FB_dam_i, ISI_EEI_FB_c, ISI_EEI_FB_dam_c,
+            ISI_EIE_i, ISI_EIE_dam_i, ISI_EIE_c, ISI_EIE_dam_c,
+            ISI_EIE_FB_i, ISI_EIE_FB_dam_i, ISI_EIE_FB_c, ISI_EIE_FB_dam_c,
+            ISI_EII_i, ISI_EII_dam_i, ISI_EII_c, ISI_EII_dam_c,
+            ISI_EII_FB_i, ISI_EII_FB_dam_i, ISI_EII_FB_c, ISI_EII_FB_dam_c,
+            ISI_IEE_i, ISI_IEE_dam_i, ISI_IEE_c, ISI_IEE_dam_c,
+            ISI_IEE_FB_i, ISI_IEE_FB_dam_i, ISI_IEE_FB_c, ISI_IEE_FB_dam_c,
+            ISI_IEI_i, ISI_IEI_dam_i, ISI_IEI_c, ISI_IEI_dam_c,
+            ISI_IEI_FB_i, ISI_IEI_FB_dam_i, ISI_IEI_FB_c, ISI_IEI_FB_dam_c,
+            ISI_IIE_i, ISI_IIE_dam_i, ISI_IIE_c, ISI_IIE_dam_c,
+            ISI_IIE_FB_i, ISI_IIE_FB_dam_i, ISI_IIE_FB_c, ISI_IIE_FB_dam_c,
+            ISI_III_i, ISI_III_dam_i, ISI_III_c, ISI_III_dam_c,
+            ISI_III_FB_i, ISI_III_FB_dam_i, ISI_III_FB_c, ISI_III_FB_dam_c
+           )
